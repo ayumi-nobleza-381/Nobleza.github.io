@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Ayumi" content="width=device-width, initial-scale=1.0">
+    <meta name="Hobbies" content="A personal blog about my hobbies">
+    <meta name="author" content="Nobleza">
+    <title>Yums' hobbies</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #86A788;
+            color: #FFE2E2;
+        }
+
+        h1, h2, h3 {
+            color: #FFFDEC;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #86A788;
+            color: #FFE2E2;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #FFE2E2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Main Content */
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .blog-post {
+            width: 50%;
+        }
+
+        .blog-post article {
+            background-color: #FFCFCF;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post article h1 {
+            font-size: 28px;
+        }
+
+        .author {
+            font-size: 14px;
+            color: #e789ff;
+        }
+
+        .intro {
+            font-size: 16px;
+            color: #e789ff;
+            line-height: 1.6;
+        }
+
+        .blog-post article a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #86A788;
+        }
+
+        .blog-post article a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sidebar (Aside) */
+        aside {
+            width: 23%;
+            background-color: #fff;
+            padding: 20px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        aside h3 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        aside p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Secondary and Tertiary Sidebars */
+        .sidebar-secondary,
+        .sidebar-tertiary {
+            width: 23%;
+            background-color: #fff; /* Match background color of other columns */
+            padding: 20px;
+            margin-left: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar-secondary h3,
+        .sidebar-tertiary h3 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        .sidebar-secondary p,
+        .sidebar-tertiary p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+                padding: 10px;
+            }
+
+            .blog-post {
+                width: 100%;
+            }
+
+            aside, .sidebar-secondary, .sidebar-tertiary {
+                width: 100%;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="blog-post">
+            <article>
+                <h1>Yums' personal page</h1>
+                <p class="author"> By Nobleza, Ayumi </p>
+                <p class="intro"> I have a bunch of hobbies that shapes me for who I am. In this page you'll find out more about me.</p>
+            </article>
+
+            <article>
+                <h1> My hobbies </h1>
+                <p class="author">By Nobleza, Ayumi on January 14, 2025</p>
+                <p class="intro">One thing about my hobbies that stands out the most to me is writing. I have a passion for writing that even writing can't express. I would choose writing over and over again.</p>
+        </div>
+
+        <!-- Secondary Sidebar -->
+        <aside class="sidebar-secondary">
+            <h3>My ambition</h3>
+            <p>I have a lot and big view to my future. I would love to be everything but I know it's impossible to to all at once in this lifetime, I would love to be an author or5 a writer. A writer that can influence humanity by her words. 
+                A writer that can influece's one minds. A word that is so powerful that the government fears.</p>
+        </aside>
+
+        <!-- Tertiary Sidebar -->
+        <aside class="sidebar-tertiary">
+            <h3>Answer</h3>
+            <p>What skills and values that is important for young people to develop in world increasing and dominated by technology?
+               A lot of skills should be learned by young people, let it be physical or critical thinking skills. As the day goes by, teachnology has been slowly dominating our future. 
+               As the technology increase our works became much easier and requires less of thinking. The skill that young people should develop is 
+               not becoming to dependent to our teachnology as it's not guaranteed to last forever. If we became more dependent to technology or AI
+               we'll simply know nothing and be naive as they want us to be. They want us to be ignorant and take over in this world.
+
+               Though, I believe the AI is the future and if you refuse to accept it you'l be left behind. I still believe 
+               that humans are more capable of forming their own opinion and think of their own way without the influence of
+               AI.
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 yums' PerPa. All rights reserved.</p>
+    </footer>
+</body>
+</html>
